@@ -1,0 +1,153 @@
+
+.logo {
+    width: 22%;
+    padding: 1%;
+    text-align: center;
+}
+
+ .workGrid p {
+    font-size: 18px;
+ }
+
+  
+#panel, #flip {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(235, 151, 193);
+  border: solid 3px rgb(241, 181, 211);
+}
+
+#panel {
+  padding: 50px;
+  margin-top: 0;
+  display: none;
+}
+/* Footer styles */
+body {
+    margin: 0;
+  }
+  header {
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: white;
+    padding: 30px;
+  }
+  header ul {
+    float: right;
+    color: black;
+  }
+  header li {
+    display: inline-block;
+    padding: 15px 12px;
+    font-size: 25px;
+  }
+  header p {
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+  }
+
+  .heroImg {
+    background-color: #EBEBEB;
+    padding: 100px 15px;
+  }
+  .content {
+    margin: 0 auto;
+    padding: 50px;
+    padding-top: 0;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  button {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid black; 
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  footer {
+    background-color:black;
+    padding:20px;
+    color: white;
+  }
+  footer ul {
+    list-style: none;
+    padding-left:0px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 30px;
+  }
+  .heading {
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 30px;
+  }
+  /* My UX Skills Section */
+  .flexContainer {
+    display: flex;
+    padding: 60px 30px;
+  }
+  .flexContainer div {
+    padding: 25px;
+  }
+  
+  /* My Work Section */
+  .myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color:white;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    "img3 content3"
+    ;
+  }
+  .workGrid img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+    display: flex;
+    align-items: center;
+  }
+  .img2 {
+    grid-area: img2;
+    display: flex;
+    align-items: center;
+  }
+  .img3 {
+    grid-area: img3;
+    display: flex;
+    align-items: center;
+  }
+  .content1, .content2, .content3 {
+    padding: 80px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  .content3 {
+    grid-area: content3;
+  }
+
+
+  .fotter {
+    font-size: 34px; 
+    margin: 0; 
+    text-wrap: center;
+}
+
+  
