@@ -30,12 +30,12 @@ body {
   }
   header {
     font-family: Arial, Helvetica, sans-serif ;
-    background-color: white;
+    background-color:black;
     padding: 30px;
   }
   header ul {
     float: right;
-    color: black;
+    color: white;
   }
   header li {
     display: inline-block;
@@ -48,7 +48,7 @@ body {
   }
 
   .heroImg {
-    background-color: #EBEBEB;
+    background-color: rgb(247, 244, 255);
     padding: 100px 15px;
   }
   .content {
